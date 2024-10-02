@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ONE PIECE</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #121212;
+      color: #ebdbc5;
+      font-family: Monaco, monospace;
+    }
+
+    header {
+      width: 90%;
+      height: auto;
+      margin: 50px auto;
+      border: 2px solid #0d70cd;
+      border-radius: 10px;
+      background-color: #1c1c1c;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 100px;
+      /* Tamaño reducido del logo */
+      height: auto;
+      display: block;
+      margin: 0 auto 10px auto;
+      /* Centrado y margen inferior */
+    }
+
+    h1 {
+      color: #0d70cd;
+      font-size: 50px;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: #e1e1e1;
+      font-size: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-left: 30px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #e85860;
+      font-size: 28px;
+    }
+
+    .caja {
+      background-color: #2c2f30;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 10px;
+      width: 80%;
+    }
+
+    h2 {
+      font-size: 35px;
+      color: cornflowerblue;
+      margin-bottom: 15px;
+    }
+
+    p {
+      padding: 10px 0;
+      text-align: justify;
+      font-size: 22px;
+    }
+
+    .personajes-container {
+      overflow: hidden;
+    }
+
+    .caja2 {
+      width: 48%;
+      float: left;
+      margin: 1%;
+      padding: 10px;
+      background-color: #1e1e1e;
+      border-radius: 8px;
+    }
+
+    .caja2 img {
+      width: 70%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .pie {
+      background-color: #4a4a8b;
+      margin: 10px auto;
+      padding: 15px;
+      font-size: 14px;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .center {
+      display: block;
+      margin: 20px auto;
+      width: 80%;
+    }
+
+    @media (max-width: 768px) {
+      .caja2 {
+        width: auto margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="logoop.png" alt="Logo" />
+    </div>
+    <h1>ONE PIECE</h1>
+    <nav>
+      <a href="#ini">INICIO</a>
+      <a href="#per">PERSONAJES</a>
+      <a href="#tra">TRAILER</a>
+    </nav>
+  </header>
+
+  <section class="caja">
+    <article>
+      <a id="ini"></a>
+      <h2>INICIO</h2>
+      <p>One Piece (ひとつなぎの大秘宝ワンピース Wan Pīsu?) es un manga escrito y dibujado por Eiichiro Oda, que ilustra las aventuras
+        de los protagonistas piratas, en concreto la tripulación pirata formada por Monkey D. Luffy, quienes están en la
+        búsqueda de un tesoro llamado One Piece. Fue publicado por primera vez el 19 de julio de 1997 en la revista
+        Shonen Jump.</p>
+      <p>Actualmente ha publicado más de 1000 capítulos (recopilados en más de 100 volúmenes tankōbon ) y ha generado
+        una
+        franquicia global, que incluye una adaptación al anime de Toei Animation, numerosas películas , una serie de
+        imagen real e innumerable merchandising. Desde finales de la década de 2000 ha sido reconocido como el manga más
+        popular de Japón, incluso siendo conmemorado por el Libro Guinness de los récords como el "cómic de un solo
+        autor más vendido del mundo".</p>
+    </article>
+
+    <article>
+      <a id="per"></a>
+      <h2>PERSONAJES</h2>
+      <div class="personajes-container">
+        <div class="caja2">
+          <img src="luffy.png" alt="Luffy">
+          <h3>Monkey D. Luffy</h3>
+          <p>Toda la historia gira alrededor de Monkey D. Luffy y sus compañeros. De hecho, el nombre de la tripulación
+            proviene de su representativo sombrero de paja que lleva a todos lados consigo. Este es el líder de la
+            banda, un joven que quiere convertirse en el Rey de los Piratas y que ha consumido la fruta del diablo Gomu
+            Gomu, la cual le permite hacer que su cuerpo sea elástico. Su actitud es valiente, alegre y fiel, aunque sus
+            mayores defectos es que puede llegar a ser irresponsable en algunos aspectos.</p>
+        </div>
+
+        <div class="caja2">
+          <img src="zoro.png" alt="Zoro">
+          <h3>Roronoa Zoro</h3>
+          <p>También conocido como "El Cazador de Piratas", es uno de los personajes más queridos de todo One Piece,
+            pues tiene tanto caracter que todas las katanas de Roronoa Zoro tienen nombre. Se caracteriza porque siempre
+            viste de color verde y tiene una gran destreza con las armas, tanto así que tiene la capacidad de usar hasta
+            tres espadas al mismo tiempo. Definitivamente, es algiuien serio, disciplinado y de pocas palabras, su sueño
+            el convertirse en el mejor espadachín de todo el planeta.</p>
+        </div>
+
+        <div class="caja2">
+          <img src="nami.png" alt="Nami">
+          <h3>Nami</h3>
+          <p>Nami fue la tercera en formar parte de la tripulación de los Piratas Sombrero de Paja, una chica que se
+            dedica a navegar para conocer el mundo y tiene el objetivo de dibujar un mapa completo del planeta. Sus
+            habilidades están centradas principalmente en un arma llamada Clima-Tact, la cual le otorga las habilidades
+            de manipular el clima. En cuanto a su personalidad, Nami destaca por su inteligencia y por ser muy astuta.
+          </p>
+        </div>
+    </article>
+    <article>
+      <a id="tra"></a>
+      <h2>TRAILER</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+        reprehenderit laboriosam in minima deserunt, similique illum nobis,
+        ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+        architecto dolores eveniet. Pariatur, eos!
+      </p>
+      <iframe width="453" height="280" src="https://www.youtube.com/embed/sSovEWQGTwg"
+        title="One Piece: La Historia de LUFFY 🔶 | La vida de Monkey D. Luffy: Parte 1" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen class="center"></iframe>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+        reprehenderit laboriosam in minima deserunt, similique illum nobis,
+        ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+        architecto dolores eveniet. Pariatur, eos!
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+        reprehenderit laboriosam in minima deserunt, similique illum nobis,
+        ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+        architecto dolores eveniet. Pariatur, eos!
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+        reprehenderit laboriosam in minima deserunt, similique illum nobis,
+        ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+        architecto dolores eveniet. Pariatur, eos!
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+        reprehenderit laboriosam in minima deserunt, similique illum nobis,
+        ipsam laborum debitis repellendus, velit hic perspiciatis tenetur
+        architecto dolores eveniet. Pariatur, eos!
+      </p>
+    </article>
+  </section>
+  <footer class="pie">
+    <p>DERECHOS RESERVADOS</p>
+  </footer>
+</body>
+
+</html>
